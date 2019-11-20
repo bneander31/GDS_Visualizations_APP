@@ -1,0 +1,21 @@
+{
+  "name": "Test Chart",
+  "logoUrl": "https://media.licdn.com/dms/image/C4E0BAQGFXMUnjgU6jg/company-logo_200_200/0?e=2159024400&v=beta&t=ofzg71y0eNnJ1Sm7-otJuHTHmVWSdYBpu-5d6LL8Y3U",
+  "organization": "Ameex Technologies",
+  "supportUrl": "https://www.ameexusa.com/contact-us",
+  "packageUrl": "https://url",
+  "privacyPolicyUrl": "https://www.ameexusa.com/privacy-policy-statement",
+  "description": "Test Chart",
+  "devMode": true,
+  "components": [{
+    "id": "barChart",
+    "name": "Bar Chart",
+    "iconUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/bar_chart.png",
+    "description": "Bar chart written in d3.js",
+    "resource": {
+      "js": "gs://community-viz-docs-ameex/myViz/myViz.js",
+      "config": "gs://community-viz-docs-ameex/myViz/myViz.json",
+      "css": "gs://community-viz-docs-ameex/myViz/myViz.css"
+    }
+  }]
+}
